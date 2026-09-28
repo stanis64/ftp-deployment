@@ -2,3 +2,9 @@
 /composer.lock
 /tests/tmp
 /tests/output
+
+# lokální konfigurace nasazení (přístupy na FTP, tokeny), logy a IDE - repozitář je veřejný
+*.ini
+!/deployment.sample.ini
+*.log
+/.idea
